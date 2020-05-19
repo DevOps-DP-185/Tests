@@ -14,7 +14,7 @@ public class Payment extends BaseScooter {
 
 
     public Payment(String userId) {
-        this.paymentUrl = this.baseUrl + "payment-service/payments/" + userId
+        this.paymentUrl = this.baseUrl + "payment-service/kick-scooter-payment/payments/" + userId
                 + "/user-solvency";
         this.requestUtil = new RequestUtil();
     }

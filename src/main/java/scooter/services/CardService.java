@@ -15,7 +15,7 @@ public class CardService extends BaseScooter {
     private RequestUtil requestUtil;
 
     public CardService() {
-        this.url = this.baseUrl + "payment-service/cards";
+        this.url = this.baseUrl + "payment-service/kick-scooter-payment/cards";
         this.requestUtil = new RequestUtil();
     }
 
