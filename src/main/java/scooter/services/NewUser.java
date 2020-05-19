@@ -11,7 +11,7 @@ public class NewUser extends BaseScooter {
     private String url;
 
     public NewUser() {
-        this.url = this.baseUrl + "identity-service/accounts/sign-up";
+        this.url = this.baseUrl + "identity-service/kick-scooter-identity/accounts/sign-up";
     }
 
     public String getRegistrationUserToken(User user) throws IOException {

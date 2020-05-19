@@ -8,7 +8,7 @@ import java.io.IOException;
 public class ActivateAccount extends BaseScooter {
     private String url;
     public ActivateAccount() {
-        this.url = this.baseUrl + "identity-service/accounts/activate/";
+        this.url = this.baseUrl + "identity-service/kick-scooter-identity/accounts/activate/";
     }
 
     public int activateUserToken(String token) throws IOException {

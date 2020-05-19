@@ -12,7 +12,7 @@ public class AuthorizedUser extends BaseScooter {
     public final  String EMPTY_STRING = "";
 
     public AuthorizedUser() {
-        this.url = this.baseUrl + "identity-service/accounts/sign-in";
+        this.url = this.baseUrl + "identity-service/kick-scooter-identity/accounts/sign-in";
     }
 
     public String getBearerTokenAuthorizedUser(User user) throws IOException {

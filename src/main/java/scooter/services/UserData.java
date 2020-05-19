@@ -11,7 +11,7 @@ public class UserData extends BaseScooter{
     private String url;
 
     public UserData(String userID) {
-        this.url = this.baseUrl + "identity-service/accounts/" + userID;
+        this.url = this.baseUrl + "identity-service/kick-scooter-identity/accounts/" + userID;
     }
 
 
