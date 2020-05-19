@@ -26,7 +26,7 @@ public class ScootersService extends BaseScooter {
 
     public ScootersService() {
         requestUtil = new RequestUtil();
-        this.url = this.baseUrl + "vehicle-service/scooters/";
+        this.url = this.baseUrl + "vehicle-service/kick-scooter-vehicle/scooters/";
     }
 
     public ScooterDto[] getAllScooters() throws IOException {

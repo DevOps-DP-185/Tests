@@ -16,8 +16,8 @@ public class Trip extends BaseScooter {
     private RequestUtil requestUtil;
 
     public Trip() {
-        this.tripStartUrl = this.baseUrl + "trip-service/trips/start";
-        this.tripFinishUrl = this.baseUrl + "trip-service/trips/finish";
+        this.tripStartUrl = this.baseUrl + "trip-service/kick-scooter-trip/trips/start";
+        this.tripFinishUrl = this.baseUrl + "trip-service/kick-scooter-trip/trips/finish";
         this.requestUtil = new RequestUtil();
     }
 
